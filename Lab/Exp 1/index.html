@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Development Lab</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+            line-height: 1.6
+        }
+
+        header,
+        footer {
+            background: #1f4e79;
+            color: #fff;
+            padding: 16px;
+            text-align: center
+        }
+
+        nav ul {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            flex-wrap: wrap
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none
+        }
+
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px
+        }
+
+        section {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 10px
+        }
+
+        th {
+            background: #2f80ed;
+            color: #fff
+        }
+
+        figure img,
+        picture img {
+            max-width: 100%;
+            height: auto
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Backend Development Fundamentals</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#comparison">Comparison</a></li>
+                <li><a href="#reach">Contact</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#interactive">Interactive</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>This webpage demonstrates HTML5 semantic elements while introducing backend development concepts.</p>
+        </section>
+
+        <section id="about">
+            <h2>Exploring Backend Development</h2>
+            <p>Backend development powers server side applications by managing databases, APIs, and application logic.
+            </p>
+            <h3>Core Components</h3>
+            <p><strong>Server Processing:</strong> Executes application logic.</p>
+            <p><em>Database Services:</em> Stores and retrieves information.</p>
+            <p><mark>Web APIs:</mark> Connect frontend and backend.</p>
+            <p><del>Monolithic systems</del> have evolved into <ins>microservices</ins>.</p>
+            <p><code>const user = await database.findUser(id);</code></p>
+            <p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd></p>
+        </section>
+
+        <section id="topics">
+            <h2>Popular Backend Technologies</h2>
+            <ul>
+                <li>Languages
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>PHP</li>
+                        <li>Go</li>
+                    </ul>
+                </li>
+                <li>Frameworks
+                    <ul>
+                        <li>Express.js</li>
+                        <li>Spring Boot</li>
+                        <li>Laravel</li>
+                        <li>FastAPI</li>
+                    </ul>
+                </li>
+            </ul>
+            <ol>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Learn JavaScript</li>
+                <li>Choose Backend Language</li>
+                <li>Learn Database</li>
+            </ol>
+            <dl>
+                <dt>Express.js</dt>
+                <dd>Framework for Node.js.</dd>
+                <dt>PostgreSQL</dt>
+                <dd>Reliable relational database.</dd>
+            </dl>
+        </section>
+
+        <section id="comparison">
+            <h2>Comparison of Backend Technologies</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Language</th>
+                        <th>Level</th>
+                        <th>Application</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Express.js</td>
+                        <td>JavaScript</td>
+                        <td>Intermediate</td>
+                        <td>REST APIs</td>
+                    </tr>
+                    <tr>
+                        <td>Laravel</td>
+                        <td>PHP</td>
+                        <td>Intermediate</td>
+                        <td>Business Apps</td>
+                    </tr>
+                    <tr>
+                        <td>FastAPI</td>
+                        <td>Python</td>
+                        <td>Easy</td>
+                        <td>APIs</td>
+                    </tr>
+                    <tr>
+                        <td>Spring Boot</td>
+                        <td>Java</td>
+                        <td>Advanced</td>
+                        <td>Enterprise</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="reach">
+            <h2>Get in Touch</h2>
+            <form id="registrationForm">
+                <fieldset>
+                    <legend>Applicant Details</legend>
+                    <label>Name <input type="text" required></label><br><br>
+                    <label>Email <input type="email" required></label><br><br>
+                    <label>Mobile <input type="tel"></label><br><br>
+                    <label>Age <input type="number" min="18" max="60"></label><br><br>
+                    <label>Birth Date <input type="date"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Learning Preferences</legend>
+                    <select>
+                        <option>Java Backend</option>
+                        <option>Python</option>
+                        <option>Node.js</option>
+                    </select><br><br>
+                    <input type="radio" name="lvl"> Basic
+                    <input type="radio" name="lvl"> Intermediate
+                    <input type="radio" name="lvl"> Expert<br><br>
+                    <input type="range" id="knowledge" min="0" max="10" value="2">
+                    <output id="knowledgeOutput">2</output>
+                </fieldset>
+                <fieldset>
+                    <legend>Additional Details</legend>
+                    <textarea rows="4" cols="30"></textarea><br>
+                    <input type="color">
+                    <input type="file">
+                    <input type="url" placeholder="https://example.com">
+                </fieldset>
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+
+        <section id="media">
+            <h2>Learning Resources</h2>
+            <figure>
+                <img src="images/backend.jpeg" alt="Backend">
+                <figcaption>Backend Architecture</figcaption>
+            </figure>
+            <figure>
+                <img src="images/database.jpeg" alt="Database" width="320">
+                <figcaption>Database Management</figcaption>
+            </figure>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+            </audio><br><br>
+            <video controls width="560">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            </video>
+            <p>Progress <progress value="72" max="100"></progress></p>
+            <p>Assignments <meter value="8" min="0" max="10"></meter></p>
+        </section>
+
+        <section id="interactive">
+            <h2>Interactive Learning Tools</h2>
+            <details>
+                <summary>Prerequisites</summary>
+                <ul>
+                    <li>Programming Basics</li>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </details>
+            <details>
+                <summary>Objectives</summary>
+                <ol>
+                    <li>Understand backend</li>
+                    <li>Build web pages</li>
+                    <li>Use APIs</li>
+                </ol>
+            </details>
+            <label>Search <input list="backendList"></label>
+            <datalist id="backendList">
+                <option>Node.js</option>
+                <option>Express.js</option>
+                <option>Laravel</option>
+                <option>FastAPI</option>
+            </datalist>
+            <button id="showDialog" type="button">Open Information</button>
+            <dialog id="courseDialog">
+                <p>This dialog demonstrates the HTML5 dialog element.</p>
+                <button id="hideDialog" type="button">Close</button>
+            </dialog>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Backend Development Laboratory</p>
+    </footer>
+
+    <script>
+        const k = document.getElementById('knowledge');
+        const o = document.getElementById('knowledgeOutput');
+        if (k) o.textContent = k.value;
+        k && k.addEventListener('input', () => o.textContent = k.value);
+        document.getElementById('registrationForm').addEventListener('submit', e => { e.preventDefault(); alert('Registration completed successfully. (Demo)'); });
+        const d = document.getElementById('courseDialog');
+        document.getElementById('showDialog').addEventListener('click', () => d.showModal());
+        document.getElementById('hideDialog').addEventListener('click', () => d.close());
+    </script>
+
+</body>
+
+</html>
