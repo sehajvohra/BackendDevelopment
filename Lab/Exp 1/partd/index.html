@@ -1,0 +1,173 @@
+<section id="reach">
+
+    <h2>Get in Touch</h2>
+
+    <form action="/register" method="POST" id="registrationForm">
+
+        <fieldset>
+            <legend>Applicant Details</legend>
+
+            <div>
+                <label for="userName">Name:</label>
+                <input type="text" id="userName" name="userName" placeholder="Enter your name" required>
+            </div>
+
+            <div>
+                <label for="userEmail">Email Address:</label>
+                <input type="email" id="userEmail" name="userEmail" placeholder="example@email.com" required>
+            </div>
+
+            <div>
+                <label for="mobileNumber">Mobile Number:</label>
+                <input type="tel" id="mobileNumber" name="mobileNumber" placeholder="+91 9876543210"
+                    pattern="[+]{0,1}[0-9\- ]+">
+            </div>
+
+            <div>
+                <label for="userAge">Age:</label>
+                <input type="number" id="userAge" name="userAge" min="18" max="60">
+            </div>
+
+            <div>
+                <label for="birthDate">Birth Date:</label>
+                <input type="date" id="birthDate" name="birthDate">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Learning Preferences</legend>
+
+            <div>
+                <label for="track">Choose Course:</label>
+
+                <select id="track" name="track">
+
+                    <optgroup label="Backend Programs">
+                        <option value="java">Java Backend</option>
+                        <option value="python">Python Programming</option>
+                        <option value="node">Node.js Development</option>
+                    </optgroup>
+
+                    <optgroup label="Additional Skills">
+                        <option value="database">Database Management</option>
+                        <option value="cloud">Cloud Computing</option>
+                    </optgroup>
+
+                </select>
+            </div>
+
+            <div>
+
+                <label>Skill Level:</label>
+
+                <div>
+                    <input type="radio" id="basic" name="skillLevel" value="Basic">
+                    <label for="basic">Basic</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="average" name="skillLevel" value="Average">
+                    <label for="average">Intermediate</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="expert" name="skillLevel" value="Expert">
+                    <label for="expert">Expert</label>
+                </div>
+
+            </div>
+
+            <div>
+
+                <label>Preferred Topics:</label>
+
+                <div>
+                    <input type="checkbox" id="restApi" name="interest" value="REST API">
+                    <label for="restApi">REST API</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="sql" name="interest" value="SQL">
+                    <label for="sql">SQL Databases</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="auth" name="interest" value="Authentication">
+                    <label for="auth">Authentication</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="deployment" name="interest" value="Deployment">
+                    <label for="deployment">Application Deployment</label>
+                </div>
+
+            </div>
+
+            <div>
+
+                <label for="knowledge">Knowledge Level:</label>
+
+                <input type="range" id="knowledge" name="knowledge" min="0" max="10" value="2">
+
+                <output id="knowledgeOutput">2</output>
+
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Additional Details</legend>
+
+            <div>
+                <label for="remarks">Comments:</label>
+                <textarea id="remarks" name="remarks" rows="5" cols="30"
+                    placeholder="Share your learning objectives..."></textarea>
+            </div>
+
+            <div>
+                <label for="themeColor">Theme Color:</label>
+                <input type="color" id="themeColor" name="themeColor" value="#2F80ED">
+            </div>
+
+            <div>
+                <label for="document">Upload Document:</label>
+                <input type="file" id="document" name="document" accept=".pdf,.doc,.docx">
+            </div>
+
+            <div>
+                <label for="website">Portfolio Website:</label>
+                <input type="url" id="website" name="website" placeholder="https://example.com">
+            </div>
+
+        </fieldset>
+
+        <div>
+            <button type="submit">Register</button>
+            <button type="reset">Reset Form</button>
+        </div>
+
+    </form>
+
+</section>
+
+<script>
+
+    const knowledgeSlider = document.getElementById("knowledge");
+    const knowledgeValue = document.getElementById("knowledgeOutput");
+
+    knowledgeSlider.addEventListener("input", function () {
+        knowledgeValue.textContent = this.value;
+    });
+
+    document.getElementById("registrationForm").addEventListener("submit", function (event) {
+
+        event.preventDefault();
+
+        alert("Registration completed successfully. (Demo)");
+
+    });
+
+</script>
