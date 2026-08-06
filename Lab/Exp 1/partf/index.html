@@ -1,0 +1,109 @@
+<section id="interactive">
+
+    <h2>Interactive Learning Tools</h2>
+
+    <details>
+        <summary>View Prerequisites</summary>
+
+        <ul>
+            <li>Basic knowledge of computer programming.</li>
+            <li>Understanding of HTML and CSS fundamentals.</li>
+            <li>Familiarity with JavaScript basics.</li>
+        </ul>
+
+    </details>
+
+    <details>
+
+        <summary>Learning Objectives</summary>
+
+        <ol>
+            <li>Understand backend development concepts.</li>
+            <li>Work with semantic HTML5 elements.</li>
+            <li>Explore APIs and server side technologies.</li>
+            <li>Build responsive web pages.</li>
+            <li>Develop problem solving and practical skills.</li>
+        </ol>
+
+    </details>
+
+    <div>
+
+        <h3>Technology Search</h3>
+
+        <form>
+
+            <label for="technologySearch">
+                Search Backend Technologies:
+            </label>
+
+            <input list="backendList" id="technologySearch" name="technologySearch" placeholder="Search technology...">
+
+            <datalist id="backendList">
+                <option value="Node.js">
+                <option value="Express.js">
+                <option value="Spring Boot">
+                <option value="Laravel">
+                <option value="FastAPI">
+                <option value="ASP.NET Core">
+                <option value="MongoDB">
+                <option value="PostgreSQL">
+                <option value="MySQL">
+                <option value="Redis">
+                <option value="Docker">
+                <option value="Git">
+            </datalist>
+
+            <button type="submit">Find</button>
+
+        </form>
+
+    </div>
+
+    <div style="margin-top:20px;">
+
+        <button id="showDialog">
+            Open Information
+        </button>
+
+        <dialog id="courseDialog">
+
+            <h3>Backend Development</h3>
+
+            <p>
+                This dialog demonstrates the HTML5
+                <code>&lt;dialog&gt;</code> element. It can be used for
+                alerts, notifications, or displaying additional information.
+            </p>
+
+            <button id="hideDialog">
+                Close
+            </button>
+
+        </dialog>
+
+    </div>
+
+</section>
+
+<script>
+
+    const infoDialog = document.getElementById("courseDialog");
+
+    const openButton = document.getElementById("showDialog");
+
+    const closeButton = document.getElementById("hideDialog");
+
+    openButton.addEventListener("click", function () {
+
+        infoDialog.showModal();
+
+    });
+
+    closeButton.addEventListener("click", function () {
+
+        infoDialog.close();
+
+    });
+
+</script>
