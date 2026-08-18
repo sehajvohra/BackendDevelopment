@@ -12,7 +12,7 @@ This website contains all the experiments completed as part of the Backend Devel
 
 ### Experiment 12
 
-[View Experiment 12](./Lab/Exp%2012/)
+[View Experiment 12](https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2012/nodejs-express-lab)
 
 
 ## Technologies
