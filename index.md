@@ -8,7 +8,7 @@ This website contains all the experiments completed as part of the Backend Devel
 
 ### Experiment 1
 
-[View Experiment 1](https://github.com/sehajvohra/sehajvohra.github.io/tree/main/Lab/Exp%201)
+[View Experiment 1](./Lab/Exp%201/index.html)
 
 ### Experiment 12
 
