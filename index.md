@@ -8,12 +8,11 @@ This website contains all the experiments completed as part of the Backend Devel
 
 ### Experiment 1
 
-[View Experiment 1](./Lab/Exp%201/)
+[View Experiment 1](https://github.com/sehajvohra/sehajvohra.github.io/tree/main/Lab/Exp%201)
 
 ### Experiment 12
 
-[View Experiment 12](https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2012/nodejs-express-lab)
-
+[View Experiment 12](https://github.com/sehajvohra/sehajvohra.github.io/tree/main/Lab/Exp%2012/nodejs-express-lab)
 
 ## Technologies
 
