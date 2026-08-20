@@ -9,7 +9,7 @@ app.set("view engine", "ejs");
 app.set("views", "./views");
 
 app.get("/", (req, res) => {
-  res.send("Welcome to Express Server!");
+  res.send("Welcome to Express Server! created by Sehaj");
 });
 
 app.get("/text", (req, res) => {
@@ -103,9 +103,9 @@ app.get("/home", (req, res) => {
 
 app.get("/users", (req, res) => {
   const users = [
-    { id: 1, name: "John Doe", email: "john@example.com" },
-    { id: 2, name: "Jane Smith", email: "jane@example.com" },
-    { id: 3, name: "Bob Johnson", email: "bob@example.com" },
+    { id: 1, name: "Sehaj Vohra", email: "sehaj@example.com" },
+    { id: 2, name: "Himadri Barman", email: "himadri@example.com" },
+    { id: 3, name: "Rahul Chauhan", email: "rahul@example.com" },
   ];
   res.render("users", { users });
 });
@@ -113,10 +113,10 @@ app.get("/users", (req, res) => {
 app.get("/profile/:id", (req, res) => {
   const user = {
     id: req.params.id,
-    name: "John Doe",
-    email: "john@example.com",
-    age: 25,
-    city: "New York",
+    name: "Sehaj Vohra",
+    email: "sehaj@example.com",
+    age: 20,
+    city: "Dehradun",
   };
   res.render("profile", { user });
 });
