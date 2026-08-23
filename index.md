@@ -27,7 +27,7 @@ Node.js and Express practical implementation.
 
 Lecture wise theory and practical learning material.
 
-[Explore Theory →](Theory/)
+[Explore Theory →](https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory)
 
 ## Technologies
 
