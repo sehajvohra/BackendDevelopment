@@ -1,0 +1,17 @@
+{
+  "name": "exp-12b",
+  "version": "1.0.0",
+  "description": "Backend Development Experiment 12B: Sessions and Cookies",
+  "main": "Source/server.js",
+  "scripts": {
+    "start": "node Source/server.js"
+  },
+  "keywords": [],
+  "author": "Sehaj Vohra",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0"
+  }
+}
