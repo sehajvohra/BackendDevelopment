@@ -1,21 +1,27 @@
 # Experiment 1
 
 ## Title
+
 Create a Web Page Using HTML5 Elements
 
 ## Name
+
 Sehaj Vohra
 
 ## SAP ID
+
 590011624
 
 ## Course
+
 Backend Development
 
 ## Program
+
 B.Tech Computer Science and Engineering
 
 ## Semester
+
 5
 
 ## Objective
@@ -79,4 +85,4 @@ A responsive HTML5 webpage demonstrating various HTML5 elements and interactive 
 
 The experiment helped in understanding the structure and implementation of HTML5 elements. It also provided practical experience in developing a structured, interactive, and responsive web page suitable for backend development demonstrations.
 
-[View Experiment 1](./Lab/Exp%201/)
+[View Experiment 1](https://sehajvohra.github.io/BackendDevelopment/Lab/Exp%201/index.html)
