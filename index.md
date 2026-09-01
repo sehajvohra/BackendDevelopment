@@ -3,13 +3,9 @@ layout: home
 title: Backend Development
 ---
 
-Coursework, theory, and practical work.
-
----
-
 ## Lab Experiments
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 20px 0 36px 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 20px 0 40px 0;">
 
 <a href="Lab/Exp%201/index.html" style="text-decoration: none;">
 <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 20px; height: 100%; box-sizing: border-box;">
