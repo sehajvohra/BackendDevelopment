@@ -183,13 +183,12 @@ The Session Based To Do List was successfully implemented and tested.
 
 The application successfully allowed To Do items to be added, displayed, deleted, and cleared. The session based implementation also demonstrated that separate browser sessions maintain separate To Do lists.
 
-# Project Structure
+## Project Structure
 
-```text
+<pre>
 Exp 12B/
 │
 ├── Task1/
-│   ├── node_modules/
 │   ├── screenshots/
 │   │   ├── SS01_Login_Page.png
 │   │   ├── SS02_Registration_Page.png
@@ -201,7 +200,6 @@ Exp 12B/
 │   └── server.js
 │
 └── Task2/
-    ├── node_modules/
     ├── screenshots/
     │   ├── SS01_Empty_Todo_List.png
     │   ├── SS02_Todo_Item_Added.png
@@ -211,3 +209,4 @@ Exp 12B/
     ├── package-lock.json
     ├── package.json
     └── server.js
+</pre>

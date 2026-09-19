@@ -342,6 +342,7 @@ The terminal successfully displayed the available endpoints when the server star
 
 ## Project Structure
 
+<pre>
 ```text
 Exp 12
 │
@@ -373,3 +374,4 @@ Exp 12
 │   └── task11-complete-endpoints.png
 │
 └── nodemon.json
+</pre>
