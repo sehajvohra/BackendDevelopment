@@ -72,11 +72,11 @@ The `script.js` file was created using Node.js. The program prints a welcome mes
 
 ### Code Location
 
-`Lab/Exp 12/nodejs-express-lab/script.js`
+[script.js](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/script.js)
 
 ### Screenshot
 
-`task1-nodejs-script`
+![Node.js Script](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task1-nodejs-script.png)
 
 ### Result
 
@@ -94,11 +94,11 @@ Express.js was installed and configured. The application listens on port 3000 an
 
 ### Code Location
 
-`Lab/Exp 12/nodejs-express-lab/app.js`
+[app.js](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/app.js)
 
 ### Screenshot
 
-`task2-basic-express-server`
+![Basic Express Server](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task2-basic-express-server.png)
 
 ### Result
 
@@ -122,15 +122,15 @@ The `/json` route returns a JSON response containing a message, status, and data
 
 ### Code Location
 
-`Lab/Exp 12/nodejs-express-lab/app.js`
+[app.js](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/app.js)
 
 ### Screenshots
 
-`task3-text-response`
+![Text Response](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task3-text-response.png)
 
-`task3-html-response`
+![HTML Response](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task3-html-response.png)
 
-`task3-json-response`
+![JSON Response](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task3-json-response.png)
 
 ### Result
 
@@ -148,11 +148,11 @@ The `/user/:id` route was created to receive a dynamic user ID through the URL. 
 
 ### Code Location
 
-`Lab/Exp 12/nodejs-express-lab/app.js`
+[app.js](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/app.js)
 
 ### Screenshot
 
-`task4-url-parameters`
+![URL Parameters](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task4-url-parameters.png)
 
 ### Result
 
@@ -172,13 +172,13 @@ The `/calculate` route reads `num1`, `num2`, and `operation` from the query stri
 
 ### Code Location
 
-`Lab/Exp 12/nodejs-express-lab/app.js`
+[app.js](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/app.js)
 
 ### Screenshots
 
-`task5-query-parameters`
+![Query Parameters](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task5-query-parameters.png)
 
-`task5-calculator-api`
+![Calculator API](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task5-calculator-api.png)
 
 ### Result
 
@@ -200,13 +200,13 @@ The `/login` route checks the supplied email and password against the credential
 
 ### Code Location
 
-`Lab/Exp 12/nodejs-express-lab/app.js`
+[app.js](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/app.js)
 
 ### Screenshots
 
-`task6-post-registration`
+![POST Registration](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task6-post-registration.png)
 
-`task6-post-login`
+![POST Login](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task6-post-login.png)
 
 ### Result
 
@@ -224,13 +224,13 @@ EJS was configured as the Express view engine. The `/home` route renders `home.e
 
 ### Code Location
 
-`Lab/Exp 12/nodejs-express-lab/app.js`
+[app.js](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/app.js)
 
-`Lab/Exp 12/nodejs-express-lab/views/home.ejs`
+[home.ejs](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/views/home.ejs)
 
 ### Screenshot
 
-`task7-ejs-home`
+![EJS Home Page](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task7-ejs-home.png)
 
 ### Result
 
@@ -250,13 +250,13 @@ The implemented users are Sehaj Vohra, Himadri Barman, and Rahul Chauhan.
 
 ### Code Location
 
-`Lab/Exp 12/nodejs-express-lab/app.js`
+[app.js](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/app.js)
 
-`Lab/Exp 12/nodejs-express-lab/views/users.ejs`
+[users.ejs](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/views/users.ejs)
 
 ### Screenshot
 
-`task8-ejs-users`
+![EJS Users Page](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task8-ejs-users.png)
 
 ### Result
 
@@ -274,13 +274,13 @@ The `/profile/:id` route receives a user ID through the URL and creates a user o
 
 ### Code Location
 
-`Lab/Exp 12/nodejs-express-lab/app.js`
+[app.js](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/app.js)
 
-`Lab/Exp 12/nodejs-express-lab/views/profile.ejs`
+[profile.ejs](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/views/profile.ejs)
 
 ### Screenshot
 
-`task9-ejs-profile`
+![EJS Profile Page](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task9-ejs-profile.png)
 
 ### Result
 
@@ -304,19 +304,17 @@ A `nodemon.json` file was also used to configure watched files, file extensions,
 
 ### Code Location
 
-`Lab/Exp 12/nodejs-express-lab/package.json`
+[package.json](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/package.json)
 
-`Lab/Exp 12/nodemon.json`
+[nodemon.json](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodemon.json)
 
-### Screenshots
+### Screenshot
 
-`task10-nodemon`
-
-`task10-nodemon-restart`
+![Nodemon](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task10-nodemon.png)
 
 ### Result
 
-Nodemon successfully started the Express application and automatically restarted it after a source file was modified.
+Nodemon successfully started the Express application and monitored the project files for changes.
 
 ## Task 11: Available Endpoints
 
@@ -332,11 +330,11 @@ The endpoint list includes the welcome route, text response, HTML response, JSON
 
 ### Code Location
 
-`Lab/Exp 12/nodejs-express-lab/app.js`
+[app.js](https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/nodejs-express-lab/app.js)
 
 ### Screenshot
 
-`task11-complete-endpoints`
+![Complete Endpoints](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Lab/Exp%2012/screenshots/task11-complete-endpoints.png)
 
 ### Result
 
@@ -357,5 +355,21 @@ Exp 12
 │   ├── package.json
 │   ├── package-lock.json
 │   └── script.js
+│
+├── screenshots
+│   ├── task1-nodejs-script.png
+│   ├── task2-basic-express-server.png
+│   ├── task3-json-response.png
+│   ├── task3-text-response.png
+│   ├── task4-url-parameters.png
+│   ├── task5-calculator-api.png
+│   ├── task5-query-parameters.png
+│   ├── task6-post-login.png
+│   ├── task6-post-registration.png
+│   ├── task7-ejs-home.png
+│   ├── task8-ejs-users.png
+│   ├── task9-ejs-profile.png
+│   ├── task10-nodemon.png
+│   └── task11-complete-endpoints.png
 │
 └── nodemon.json
