@@ -123,7 +123,7 @@ app.get("/profile/:id", (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
-  console.log("Available endpoints:");
+  console.log("Available endpoints are:");
   console.log("  GET  / - Welcome message");
   console.log("  GET  /text - Plain text");
   console.log("  GET  /html - HTML response");
