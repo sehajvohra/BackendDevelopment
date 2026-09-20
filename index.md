@@ -365,7 +365,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Assignments/Assignment_2/Report.html">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Assignments/Assignment_2/Assignment%202%20PostgreSQL%20as%20SQL%20+%20NoSQL%20Working%20with%20JSONB.html">
       Report <span class="arrow">→</span>
     </a>
 
