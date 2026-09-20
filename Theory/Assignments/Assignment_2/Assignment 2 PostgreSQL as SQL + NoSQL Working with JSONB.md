@@ -378,8 +378,9 @@ The same five products were recreated as documents in a MongoDB `products` colle
 
 MongoDB was accessed using `mongosh`.
 
-![Task 7: MongoDB connection](screenshots/task7-mongodb-connection.png)
+![Task 7: MongoDB book query](screenshots/task7-mongodb-book-query.png)
 
+![Task 7: MongoDB laptop query](screenshots/task7-mongodb-laptop-query.png)
 ---
 
 ## Insert Documents
