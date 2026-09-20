@@ -343,7 +343,6 @@ The terminal successfully displayed the available endpoints when the server star
 ## Project Structure
 
 <pre>
-```text
 Exp 12
 │
 ├── nodejs-express-lab
