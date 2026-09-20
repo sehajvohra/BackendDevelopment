@@ -228,6 +228,7 @@ body {
 
 <div class="card-grid card-grid--wide">
 
+
 <!-- Experiment 1 -->
 
 <div class="card">
@@ -242,7 +243,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%201/Report.md">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Lab/Exp%201/Report.html">
       Report <span class="arrow">→</span>
     </a>
 
@@ -265,7 +266,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/Report.md">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Lab/Exp%2012/Report.html">
       Report <span class="arrow">→</span>
     </a>
 
@@ -288,7 +289,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012B/Report.md">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Lab/Exp%2012B/Report.html">
       Report <span class="arrow">→</span>
     </a>
 
@@ -311,7 +312,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2013A/Report.md">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Lab/Exp%2013A/Report.html">
       Report <span class="arrow">→</span>
     </a>
 
@@ -325,6 +326,7 @@ body {
 ## Assignments
 
 <div class="card-grid card-grid--wide">
+
 
 <!-- Assignment 1 -->
 
@@ -340,7 +342,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Assignments/Assignment_1/Report.md">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Assignments/Assignment_1/Report.html">
       Report <span class="arrow">→</span>
     </a>
 
@@ -363,7 +365,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Assignments/Assignment_2/Assignment%202%20PostgreSQL%20as%20SQL%20%2B%20NoSQL%20Working%20with%20JSONB.md">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Assignments/Assignment_2/Report.html">
       Report <span class="arrow">→</span>
     </a>
 
@@ -380,6 +382,7 @@ body {
 
 <div class="card-grid card-grid--narrow">
 
+
 <!-- Lecture 3 -->
 
 <div class="card card--narrow">
@@ -394,7 +397,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit1/Lecture3/Report.md">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit1/Lecture3/Report.html">
       Report <span class="arrow">→</span>
     </a>
 
@@ -417,7 +420,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit1/Lecture4/Report.md">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit1/Lecture4/Report.html">
       Report <span class="arrow">→</span>
     </a>
 
@@ -440,7 +443,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit1/Lecture5/Report.md">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit1/Lecture5/Report.html">
       Report <span class="arrow">→</span>
     </a>
 
@@ -463,7 +466,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit1/Lecture6/Report.md">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit1/Lecture6/Report.html">
       Report <span class="arrow">→</span>
     </a>
 
@@ -486,7 +489,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit1/Lecture7/Report.md">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit1/Lecture7/Report.html">
       Report <span class="arrow">→</span>
     </a>
 
@@ -509,7 +512,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit1/Lecture8/Report.md">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit1/Lecture8/Report.html">
       Report <span class="arrow">→</span>
     </a>
 
@@ -523,6 +526,7 @@ body {
 <p class="subsection-title">Unit 2</p>
 
 <div class="card-grid card-grid--narrow">
+
 
 <!-- Lecture 13 -->
 
@@ -538,7 +542,7 @@ body {
 
     <span class="card-divider">|</span>
 
-    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit2/Lecture13/Report.md">
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit2/Lecture13/Report.html">
       Report <span class="arrow">→</span>
     </a>
 
