@@ -4,33 +4,31 @@ title: Backend Development
 ---
 
 <style>
+
 :root {
   --bg:            #faf8fb;
   --bg-soft:       #f2eefb;
   --ink:           #201a2b;
   --ink-soft:      #5b5468;
   --muted:         #8b8496;
-
   --violet:        #5b3ec8;
   --violet-deep:   #3d2896;
   --violet-pale:   #ece6fb;
-
   --accent:        #ff6f61;
   --accent-2:      #ffb648;
-
   --card-bg:       #ffffff;
   --card-border:   #e7e1f4;
   --card-shadow:   0 2px 6px rgba(61, 40, 150, 0.06);
   --card-shadow-hover: 0 14px 30px rgba(61, 40, 150, 0.16);
-
   --radius-lg:     18px;
   --radius-md:     14px;
-
   --font-display:  "Poppins", "Segoe UI", system-ui, sans-serif;
   --font-body:     "Inter", "Segoe UI", system-ui, sans-serif;
 }
 
-.page-wrap-inner * { box-sizing: border-box; }
+.page-wrap-inner * {
+  box-sizing: border-box;
+}
 
 body {
   background: var(--bg);
@@ -93,8 +91,13 @@ body {
   margin: 0 0 8px;
 }
 
-.card-grid--wide   { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
-.card-grid--narrow { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.card-grid--wide {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card-grid--narrow {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
 
 .card {
   display: block;
@@ -131,9 +134,13 @@ body {
   border-color: transparent;
 }
 
-.card:hover::after { opacity: 1; }
+.card:hover::after {
+  opacity: 1;
+}
 
-.card--narrow { text-align: center; }
+.card--narrow {
+  text-align: center;
+}
 
 .card-label {
   display: block;
@@ -152,13 +159,21 @@ body {
   color: var(--muted);
 }
 
-.card:hover .card-action { color: var(--accent); }
+.card:hover .card-action {
+  color: var(--accent);
+}
 
-.card-action .arrow { transition: transform 0.22s ease; }
+.card-action .arrow {
+  transition: transform 0.22s ease;
+}
 
-.card:hover .card-action .arrow { transform: translateX(3px); }
+.card:hover .card-action .arrow {
+  transform: translateX(3px);
+}
 
-.card--new { border-color: var(--accent-2); }
+.card--new {
+  border-color: var(--accent-2);
+}
 
 .card--new .card-label::after {
   content: "NEW";
@@ -174,35 +189,107 @@ body {
 }
 
 @media (max-width: 640px) {
-  .page-title { font-size: 2rem; }
+  .page-title {
+    font-size: 2rem;
+  }
 }
+
 </style>
 
 <p class="page-title">Backend Development</p>
-<p class="page-subtitle">Lab experiments, lecture notes, and resources for the Backend Development course.</p>
+
+<p class="page-subtitle">
+  Lab experiments, lecture notes, and resources for the Backend Development course.
+</p>
 
 ## Lab Experiments
 
 <div class="card-grid card-grid--wide">
 
 <a class="card" href="Lab/Exp%201/index.html">
+
   <span class="card-label">Experiment 1</span>
-  <span class="card-action">Open <span class="arrow">→</span></span>
+
+  <span class="card-action">
+    Open <span class="arrow">→</span>
+  </span>
+
 </a>
 
 <a class="card" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2012">
+
   <span class="card-label">Experiment 12</span>
-  <span class="card-action">GitHub <span class="arrow">→</span></span>
+
+  <span class="card-action">
+    GitHub <span class="arrow">→</span>
+  </span>
+
 </a>
 
 <a class="card" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2012B">
+
   <span class="card-label">Experiment 12B</span>
-  <span class="card-action">GitHub <span class="arrow">→</span></span>
+
+  <span class="card-action">
+    GitHub <span class="arrow">→</span>
+  </span>
+
 </a>
 
 <a class="card" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2013A">
+
   <span class="card-label">Experiment 13A</span>
-  <span class="card-action">GitHub <span class="arrow">→</span></span>
+
+  <span class="card-action">
+    GitHub <span class="arrow">→</span>
+  </span>
+
+</a>
+
+</div>
+
+## Assignments
+
+<div class="card-grid card-grid--wide">
+
+<a class="card" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Assignments/Assignment_1">
+
+  <span class="card-label">Assignment 1</span>
+
+  <span class="card-action">
+    GitHub <span class="arrow">→</span>
+  </span>
+
+</a>
+
+<a class="card" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Assignments/Assignment_1/index.html">
+
+  <span class="card-label">Assignment 1 Preview</span>
+
+  <span class="card-action">
+    Preview <span class="arrow">→</span>
+  </span>
+
+</a>
+
+<a class="card" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Assignments/Assignment_2">
+
+  <span class="card-label">Assignment 2</span>
+
+  <span class="card-action">
+    GitHub <span class="arrow">→</span>
+  </span>
+
+</a>
+
+<a class="card" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Assignments/Assignment_2/Assignment%202%20PostgreSQL%20as%20SQL%20%2B%20NoSQL%20Working%20with%20JSONB.md">
+
+  <span class="card-label">Assignment 2 Preview</span>
+
+  <span class="card-action">
+    Preview <span class="arrow">→</span>
+  </span>
+
 </a>
 
 </div>
@@ -214,33 +301,63 @@ body {
 <div class="card-grid card-grid--narrow">
 
 <a class="card card--narrow" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture3">
+
   <span class="card-label">Lecture 3</span>
-  <span class="card-action">GitHub <span class="arrow">→</span></span>
+
+  <span class="card-action">
+    GitHub <span class="arrow">→</span>
+  </span>
+
 </a>
 
 <a class="card card--narrow" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture4">
+
   <span class="card-label">Lecture 4</span>
-  <span class="card-action">GitHub <span class="arrow">→</span></span>
+
+  <span class="card-action">
+    GitHub <span class="arrow">→</span>
+  </span>
+
 </a>
 
 <a class="card card--narrow" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture5">
+
   <span class="card-label">Lecture 5</span>
-  <span class="card-action">GitHub <span class="arrow">→</span></span>
+
+  <span class="card-action">
+    GitHub <span class="arrow">→</span>
+  </span>
+
 </a>
 
 <a class="card card--narrow" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture6">
+
   <span class="card-label">Lecture 6</span>
-  <span class="card-action">GitHub <span class="arrow">→</span></span>
+
+  <span class="card-action">
+    GitHub <span class="arrow">→</span>
+  </span>
+
 </a>
 
 <a class="card card--narrow" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture7">
+
   <span class="card-label">Lecture 7</span>
-  <span class="card-action">GitHub <span class="arrow">→</span></span>
+
+  <span class="card-action">
+    GitHub <span class="arrow">→</span>
+  </span>
+
 </a>
 
 <a class="card card--narrow" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture8">
+
   <span class="card-label">Lecture 8</span>
-  <span class="card-action">GitHub <span class="arrow">→</span></span>
+
+  <span class="card-action">
+    GitHub <span class="arrow">→</span>
+  </span>
+
 </a>
 
 </div>
@@ -250,8 +367,13 @@ body {
 <div class="card-grid card-grid--narrow">
 
 <a class="card card--narrow card--new" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit2/Lecture13">
+
   <span class="card-label">Lecture 13</span>
-  <span class="card-action">GitHub <span class="arrow">→</span></span>
+
+  <span class="card-action">
+    GitHub <span class="arrow">→</span>
+  </span>
+
 </a>
 
 </div>
