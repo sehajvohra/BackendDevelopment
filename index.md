@@ -147,28 +147,43 @@ body {
   font-weight: 700;
   font-size: 1.02rem;
   color: var(--violet-deep);
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 
-.card-action {
+.card-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.card-link {
   display: inline-flex;
   align-items: center;
   gap: 4px;
   font-size: 0.88rem;
   font-weight: 500;
   color: var(--muted);
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
 }
 
-.card:hover .card-action {
+.card-link:hover {
   color: var(--accent);
 }
 
-.card-action .arrow {
+.card-link .arrow {
   transition: transform 0.22s ease;
 }
 
-.card:hover .card-action .arrow {
+.card-link:hover .arrow {
   transform: translateX(3px);
+}
+
+.card-divider {
+  color: var(--card-border);
+  font-size: 0.9rem;
 }
 
 .card--new {
@@ -189,9 +204,15 @@ body {
 }
 
 @media (max-width: 640px) {
+
   .page-title {
     font-size: 2rem;
   }
+
+  .card-links {
+    gap: 8px;
+  }
+
 }
 
 </style>
@@ -202,97 +223,156 @@ body {
   Lab experiments, lecture notes, and resources for the Backend Development course.
 </p>
 
+
 ## Lab Experiments
 
 <div class="card-grid card-grid--wide">
 
-<a class="card" href="Lab/Exp%201/index.html">
+<!-- Experiment 1 -->
+
+<div class="card">
 
   <span class="card-label">Experiment 1</span>
 
-  <span class="card-action">
-    Open <span class="arrow">→</span>
-  </span>
+  <div class="card-links">
 
-</a>
+    <a class="card-link" href="Lab/Exp%201/index.html">
+      Open <span class="arrow">→</span>
+    </a>
 
-<a class="card" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2012">
+    <span class="card-divider">|</span>
+
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%201/Report.md">
+      Report <span class="arrow">→</span>
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- Experiment 12 -->
+
+<div class="card">
 
   <span class="card-label">Experiment 12</span>
 
-  <span class="card-action">
-    GitHub <span class="arrow">→</span>
-  </span>
+  <div class="card-links">
 
-</a>
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2012">
+      GitHub <span class="arrow">→</span>
+    </a>
 
-<a class="card" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2012B">
+    <span class="card-divider">|</span>
+
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012/Report.md">
+      Report <span class="arrow">→</span>
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- Experiment 12B -->
+
+<div class="card">
 
   <span class="card-label">Experiment 12B</span>
 
-  <span class="card-action">
-    GitHub <span class="arrow">→</span>
-  </span>
+  <div class="card-links">
 
-</a>
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2012B">
+      GitHub <span class="arrow">→</span>
+    </a>
 
-<a class="card" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2013A">
+    <span class="card-divider">|</span>
+
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2012B/Report.md">
+      Report <span class="arrow">→</span>
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- Experiment 13A -->
+
+<div class="card">
 
   <span class="card-label">Experiment 13A</span>
 
-  <span class="card-action">
-    GitHub <span class="arrow">→</span>
-  </span>
+  <div class="card-links">
 
-</a>
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2013A">
+      GitHub <span class="arrow">→</span>
+    </a>
+
+    <span class="card-divider">|</span>
+
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Lab/Exp%2013A/Report.md">
+      Report <span class="arrow">→</span>
+    </a>
+
+  </div>
 
 </div>
+
+</div>
+
 
 ## Assignments
 
 <div class="card-grid card-grid--wide">
 
-<a class="card" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Assignments/Assignment_1">
+<!-- Assignment 1 -->
+
+<div class="card">
 
   <span class="card-label">Assignment 1</span>
 
-  <span class="card-action">
-    GitHub <span class="arrow">→</span>
-  </span>
+  <div class="card-links">
 
-</a>
+    <a class="card-link" href="Theory/Assignments/Assignment_1/index.html">
+      Open <span class="arrow">→</span>
+    </a>
 
-<a class="card" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Assignments/Assignment_1/index.html">
+    <span class="card-divider">|</span>
 
-  <span class="card-label">Assignment 1 Preview</span>
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Assignments/Assignment_1/Report.md">
+      Report <span class="arrow">→</span>
+    </a>
 
-  <span class="card-action">
-    Preview <span class="arrow">→</span>
-  </span>
+  </div>
 
-</a>
+</div>
 
-<a class="card" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Assignments/Assignment_2">
+
+<!-- Assignment 2 -->
+
+<div class="card">
 
   <span class="card-label">Assignment 2</span>
 
-  <span class="card-action">
-    GitHub <span class="arrow">→</span>
-  </span>
+  <div class="card-links">
 
-</a>
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Assignments/Assignment_2">
+      GitHub <span class="arrow">→</span>
+    </a>
 
-<a class="card" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Assignments/Assignment_2/Assignment%202%20PostgreSQL%20as%20SQL%20%2B%20NoSQL%20Working%20with%20JSONB.md">
+    <span class="card-divider">|</span>
 
-  <span class="card-label">Assignment 2 Preview</span>
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Assignments/Assignment_2/Assignment%202%20PostgreSQL%20as%20SQL%20%2B%20NoSQL%20Working%20with%20JSONB.md">
+      Report <span class="arrow">→</span>
+    </a>
 
-  <span class="card-action">
-    Preview <span class="arrow">→</span>
-  </span>
-
-</a>
+  </div>
 
 </div>
+
+</div>
+
 
 ## Theory
 
@@ -300,80 +380,170 @@ body {
 
 <div class="card-grid card-grid--narrow">
 
-<a class="card card--narrow" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture3">
+<!-- Lecture 3 -->
+
+<div class="card card--narrow">
 
   <span class="card-label">Lecture 3</span>
 
-  <span class="card-action">
-    GitHub <span class="arrow">→</span>
-  </span>
+  <div class="card-links">
 
-</a>
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture3">
+      GitHub <span class="arrow">→</span>
+    </a>
 
-<a class="card card--narrow" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture4">
+    <span class="card-divider">|</span>
+
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit1/Lecture3/Report.md">
+      Report <span class="arrow">→</span>
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- Lecture 4 -->
+
+<div class="card card--narrow">
 
   <span class="card-label">Lecture 4</span>
 
-  <span class="card-action">
-    GitHub <span class="arrow">→</span>
-  </span>
+  <div class="card-links">
 
-</a>
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture4">
+      GitHub <span class="arrow">→</span>
+    </a>
 
-<a class="card card--narrow" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture5">
+    <span class="card-divider">|</span>
+
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit1/Lecture4/Report.md">
+      Report <span class="arrow">→</span>
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- Lecture 5 -->
+
+<div class="card card--narrow">
 
   <span class="card-label">Lecture 5</span>
 
-  <span class="card-action">
-    GitHub <span class="arrow">→</span>
-  </span>
+  <div class="card-links">
 
-</a>
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture5">
+      GitHub <span class="arrow">→</span>
+    </a>
 
-<a class="card card--narrow" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture6">
+    <span class="card-divider">|</span>
+
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit1/Lecture5/Report.md">
+      Report <span class="arrow">→</span>
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- Lecture 6 -->
+
+<div class="card card--narrow">
 
   <span class="card-label">Lecture 6</span>
 
-  <span class="card-action">
-    GitHub <span class="arrow">→</span>
-  </span>
+  <div class="card-links">
 
-</a>
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture6">
+      GitHub <span class="arrow">→</span>
+    </a>
 
-<a class="card card--narrow" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture7">
+    <span class="card-divider">|</span>
+
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit1/Lecture6/Report.md">
+      Report <span class="arrow">→</span>
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- Lecture 7 -->
+
+<div class="card card--narrow">
 
   <span class="card-label">Lecture 7</span>
 
-  <span class="card-action">
-    GitHub <span class="arrow">→</span>
-  </span>
+  <div class="card-links">
 
-</a>
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture7">
+      GitHub <span class="arrow">→</span>
+    </a>
 
-<a class="card card--narrow" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture8">
+    <span class="card-divider">|</span>
+
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit1/Lecture7/Report.md">
+      Report <span class="arrow">→</span>
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- Lecture 8 -->
+
+<div class="card card--narrow">
 
   <span class="card-label">Lecture 8</span>
 
-  <span class="card-action">
-    GitHub <span class="arrow">→</span>
-  </span>
+  <div class="card-links">
 
-</a>
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture8">
+      GitHub <span class="arrow">→</span>
+    </a>
+
+    <span class="card-divider">|</span>
+
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit1/Lecture8/Report.md">
+      Report <span class="arrow">→</span>
+    </a>
+
+  </div>
 
 </div>
+
+</div>
+
 
 <p class="subsection-title">Unit 2</p>
 
 <div class="card-grid card-grid--narrow">
 
-<a class="card card--narrow card--new" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit2/Lecture13">
+<!-- Lecture 13 -->
+
+<div class="card card--narrow card--new">
 
   <span class="card-label">Lecture 13</span>
 
-  <span class="card-action">
-    GitHub <span class="arrow">→</span>
-  </span>
+  <div class="card-links">
 
-</a>
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit2/Lecture13">
+      GitHub <span class="arrow">→</span>
+    </a>
+
+    <span class="card-divider">|</span>
+
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/blob/main/Theory/Unit2/Lecture13/Report.md">
+      Report <span class="arrow">→</span>
+    </a>
+
+  </div>
+
+</div>
 
 </div>
