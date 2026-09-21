@@ -26,6 +26,23 @@ title: Backend Development
   --font-body:     "Inter", "Segoe UI", system-ui, sans-serif;
 }
 
+html[data-theme="dark"] {
+  --bg:            #14111c;
+  --bg-soft:       #1b1726;
+  --ink:           #f1eef9;
+  --ink-soft:      #c8c1da;
+  --muted:         #8f89a3;
+  --violet:        #9a80f0;
+  --violet-deep:   #c3b1fa;
+  --violet-pale:   #2a2340;
+  --accent:        #ff8a7a;
+  --accent-2:      #ffc266;
+  --card-bg:       #1e1a2c;
+  --card-border:   #322a48;
+  --card-shadow:   0 2px 6px rgba(0, 0, 0, 0.25);
+  --card-shadow-hover: 0 14px 30px rgba(0, 0, 0, 0.45);
+}
+
 .page-wrap-inner * {
   box-sizing: border-box;
 }
@@ -38,6 +55,17 @@ body {
   background-attachment: fixed;
   color: var(--ink);
   font-family: var(--font-body);
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* ---------- Header row: title + theme toggle ---------- */
+
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 8px;
 }
 
 .page-title {
@@ -54,6 +82,45 @@ body {
   font-size: 1.05rem;
   margin: 0 0 40px;
 }
+
+.theme-toggle {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 999px;
+  padding: 6px 14px 6px 6px;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  box-shadow: var(--card-shadow);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  margin-top: 4px;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow-hover);
+  border-color: var(--violet);
+}
+
+.theme-toggle .toggle-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--violet), var(--accent));
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+/* ---------- Section headers ---------- */
 
 .section-title {
   font-family: var(--font-display);
@@ -85,6 +152,8 @@ body {
   border-left: 3px solid var(--violet-pale);
 }
 
+/* ---------- Card grids ---------- */
+
 .card-grid {
   display: grid;
   gap: 16px;
@@ -108,7 +177,7 @@ body {
   border-radius: var(--radius-md);
   padding: 20px;
   box-shadow: var(--card-shadow);
-  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease, background-color 0.25s ease;
   position: relative;
   overflow: hidden;
 }
@@ -155,6 +224,12 @@ body {
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+}
+
+.card--narrow .card-links {
+  justify-content: center;
 }
 
 .card-link {
@@ -165,8 +240,6 @@ body {
   font-weight: 500;
   color: var(--muted);
   text-decoration: none;
-  position: relative;
-  z-index: 2;
 }
 
 .card-link:hover {
@@ -205,6 +278,12 @@ body {
 
 @media (max-width: 640px) {
 
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
   .page-title {
     font-size: 2rem;
   }
@@ -217,11 +296,17 @@ body {
 
 </style>
 
-<p class="page-title">Backend Development</p>
+<div class="page-header">
+  <div>
+    <p class="page-title">Backend Development</p>
+    <p class="page-subtitle">Lab experiments, lecture notes, and resources for the course.</p>
+  </div>
 
-<p class="page-subtitle">
-  Lab experiments, lecture notes, and resources for the Backend Development course.
-</p>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+    <span class="toggle-icon" id="toggle-icon">🌙</span>
+    <span id="toggle-label">Dark mode</span>
+  </button>
+</div>
 
 
 ## Lab Experiments
@@ -551,3 +636,33 @@ body {
 </div>
 
 </div>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var toggleBtn = document.getElementById('theme-toggle');
+  var icon = document.getElementById('toggle-icon');
+  var label = document.getElementById('toggle-label');
+
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    if (theme === 'dark') {
+      icon.textContent = '☀️';
+      label.textContent = 'Light mode';
+    } else {
+      icon.textContent = '🌙';
+      label.textContent = 'Dark mode';
+    }
+  }
+
+  var saved = localStorage.getItem('bd-theme');
+  var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  applyTheme(saved || (prefersDark ? 'dark' : 'light'));
+
+  toggleBtn.addEventListener('click', function () {
+    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    localStorage.setItem('bd-theme', next);
+  });
+})();
+</script>
