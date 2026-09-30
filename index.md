@@ -336,6 +336,24 @@ body {
 
 </div>
 
+<!-- Experiment 5 -->
+<div class="card">
+  <span class="card-label">Experiment 5</span>
+  <div class="card-links">
+
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%205">
+      GitHub <span class="arrow">→</span>
+    </a>
+
+    <span class="card-divider">|</span>
+
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Lab/Exp%205/Report.html">
+      Report <span class="arrow">→</span>
+    </a>
+
+  </div>
+</div>
+
 
 <!-- Experiment 12 -->
 
