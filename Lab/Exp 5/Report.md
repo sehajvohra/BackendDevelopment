@@ -78,7 +78,7 @@ The program successfully demonstrated array creation, array insertion, object cr
 
 ### Evidence
 
-`task1-node-output`
+![Task 1 output](screenshots/task1-node-output.png)
 
 ## Task 2: Advanced JavaScript Methods
 
@@ -145,7 +145,7 @@ The program successfully demonstrated string manipulation, array insertion, arra
 
 ### Evidence
 
-`task2-advanced-output`
+![Task 2 output](screenshots/task2-advanced-output.png)
 
 ## Task 3: HTML Integration
 
@@ -188,7 +188,7 @@ The HTML page successfully loaded the JavaScript program and the output was visi
 
 ### Evidence
 
-`task3-html-console`
+![Task 3 output](screenshots/task3-html-console.png)
 
 ## Task 4: Node JS Execution
 
@@ -214,7 +214,7 @@ Both JavaScript programs executed successfully through the terminal and produced
 
 ### Evidence
 
-`task4-node-execution`
+![Task 4 output](screenshots/task4-node-execution.png)
 
 ## PBL Activity: Library Management
 
@@ -303,7 +303,7 @@ The search for `Harry Potter` correctly displayed that the book was not found.
 
 ### Evidence
 
-`pbl-library-output`
+![PBL library output](screenshots/pbl-library-output.png)
 
 ## Learning Outcomes
 
