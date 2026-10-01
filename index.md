@@ -653,6 +653,28 @@ body {
 
 </div>
 
+<!-- Lecture 15 -->
+
+<div class="card card--narrow card--new">
+
+  <span class="card-label">Lecture 15</span>
+
+  <div class="card-links">
+
+    <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit2/Lecture15">
+      GitHub <span class="arrow">→</span>
+    </a>
+
+    <span class="card-divider">|</span>
+
+    <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit2/Lecture15/Report.html">
+      Report <span class="arrow">→</span>
+    </a>
+
+  </div>
+
+</div>
+
 </div>
 
 <script>
