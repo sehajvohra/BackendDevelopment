@@ -1,0 +1,30 @@
+E Commerce Conceptual Data Model
+
+Entities
+
+Customer
+Customer places orders and owns a cart.
+
+Cart
+Cart contains products selected by the customer.
+
+Product
+Product represents an item available for purchase.
+
+Order
+Order represents a customer's completed purchase.
+
+
+Relationships
+
+Customer 1:M Order
+One customer can place many orders.
+
+Customer 1:1 Cart
+One customer has one cart.
+
+Cart M:N Product
+A cart can contain many products and a product can appear in many carts.
+
+Order M:N Product
+An order can contain many products and a product can appear in many orders.
