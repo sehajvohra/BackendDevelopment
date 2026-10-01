@@ -1,31 +1,17 @@
 # E Commerce Conceptual Data Model
 
 ```mermaid
-erDiagram
-    CUSTOMER ||--|| CART : owns
-    CUSTOMER ||--o{ ORDER : places
-    CART }o--o{ PRODUCT : contains
-    ORDER }o--o{ PRODUCT : includes
+flowchart LR
 
-    CUSTOMER {
-        int customer_id
-        string name
-        string email
-    }
+    CUSTOMER["CUSTOMER<br/>customer_id<br/>name<br/>email"]
 
-    CART {
-        int cart_id
-        int customer_id
-    }
+    CART["CART<br/>cart_id<br/>customer_id"]
 
-    PRODUCT {
-        int product_id
-        string name
-        float price
-    }
+    PRODUCT["PRODUCT<br/>product_id<br/>name<br/>price"]
 
-    ORDER {
-        int order_id
-        int customer_id
-        date order_date
-    }
+    ORDER["ORDER<br/>order_id<br/>customer_id<br/>order_date"]
+
+    CUSTOMER -->|"owns"| CART
+    CUSTOMER -->|"places"| ORDER
+    CART -->|"contains"| PRODUCT
+    ORDER -->|"includes"| PRODUCT
