@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Delegation</title>
+</head>
+
+<body>
+    <h1>Student List</h1>
+
+    <ul id="studentList">
+        <li>Sehaj Vohra</li>
+        <li>Rahul Sharma</li>
+        <li>Aman Verma</li>
+    </ul>
+
+    <button id="addBtn">Add Student</button>
+    <p id="result">Click any student name.</p>
+
+    <script>
+        const studentList = document.getElementById("studentList");
+        const addBtn = document.getElementById("addBtn");
+        const result = document.getElementById("result");
+
+        studentList.addEventListener("click", (event) => {
+            if (event.target.tagName === "LI") {
+                result.textContent =
+                    "You clicked: " + event.target.textContent;
+            }
+        });
+
+        addBtn.addEventListener("click", () => {
+            const student = document.createElement("li");
+            student.textContent = "New Student";
+            studentList.appendChild(student);
+        });
+    </script>
+</body>
+
+</html>

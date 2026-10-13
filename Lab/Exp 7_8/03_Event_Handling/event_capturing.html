@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Capturing and Bubbling</title>
+
+    <style>
+        #parent {
+            padding: 30px;
+            background-color: lightblue;
+        }
+
+        #child {
+            padding: 15px;
+            background-color: lightyellow;
+        }
+
+        button {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Event Capturing and Bubbling</h1>
+
+    <div id="parent">
+        Parent Div
+        <button id="child">Child Button</button>
+    </div>
+
+    <button id="captureBtn">Test Capturing</button>
+    <button id="bubbleBtn">Test Bubbling</button>
+    <button id="clearBtn">Clear Output</button>
+
+    <ol id="output"></ol>
+
+    <script>
+        const parent = document.getElementById("parent");
+        const child = document.getElementById("child");
+        const captureBtn = document.getElementById("captureBtn");
+        const bubbleBtn = document.getElementById("bubbleBtn");
+        const clearBtn = document.getElementById("clearBtn");
+        const output = document.getElementById("output");
+
+        let currentMode = "bubble";
+
+        const logEvent = (message) => {
+            const item = document.createElement("li");
+            item.textContent = message;
+            output.appendChild(item);
+        };
+
+        const parentCaptureHandler = () => {
+            logEvent("Parent handler executed");
+        };
+
+        const parentBubbleHandler = () => {
+            logEvent("Parent handler executed");
+        };
+
+        const childHandler = () => {
+            logEvent("Child handler executed");
+        };
+
+        const setMode = (mode) => {
+            currentMode = mode;
+
+            parent.removeEventListener("click", parentCaptureHandler, true);
+            parent.removeEventListener("click", parentBubbleHandler, false);
+
+            if (currentMode === "capture") {
+                parent.addEventListener("click", parentCaptureHandler, true);
+                logEvent("Capturing mode selected. Click the child button.");
+            } else {
+                parent.addEventListener("click", parentBubbleHandler, false);
+                logEvent("Bubbling mode selected. Click the child button.");
+            }
+        };
+
+        child.addEventListener("click", childHandler);
+
+        captureBtn.addEventListener("click", () => {
+            output.innerHTML = "";
+            setMode("capture");
+        });
+
+        bubbleBtn.addEventListener("click", () => {
+            output.innerHTML = "";
+            setMode("bubble");
+        });
+
+        clearBtn.addEventListener("click", () => {
+            output.innerHTML = "";
+        });
+
+        setMode("bubble");
+    </script>
+</body>
+
+</html>

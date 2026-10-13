@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling</title>
+
+    <style>
+        #parent {
+            padding: 30px;
+            background-color: lightblue;
+        }
+
+        #child {
+            padding: 20px;
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Event Bubbling</h1>
+
+    <div id="parent">
+        Parent Div
+        <button id="child">Child Button</button>
+    </div>
+
+    <button id="stopBtn">Toggle stopPropagation</button>
+    <p id="result">Click the child button to test bubbling.</p>
+
+    <script>
+        const parent = document.getElementById("parent");
+        const child = document.getElementById("child");
+        const stopBtn = document.getElementById("stopBtn");
+        const result = document.getElementById("result");
+
+        let stopBubbling = false;
+
+        parent.addEventListener("click", () => {
+            result.textContent += " Parent clicked.";
+        });
+
+        child.addEventListener("click", (event) => {
+            result.textContent = "Child clicked.";
+
+            if (stopBubbling) {
+                event.stopPropagation();
+                result.textContent += " Bubbling stopped.";
+            }
+        });
+
+        stopBtn.addEventListener("click", () => {
+            stopBubbling = !stopBubbling;
+
+            stopBtn.textContent = stopBubbling
+                ? "Allow bubbling"
+                : "Toggle stopPropagation";
+
+            result.textContent = stopBubbling
+                ? "stopPropagation is enabled."
+                : "stopPropagation is disabled.";
+        });
+    </script>
+</body>
+
+</html>

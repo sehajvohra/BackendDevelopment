@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Event Handling</title>
+</head>
+
+<body>
+    <h1>Student Registration</h1>
+
+    <form id="studentForm">
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" required>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script>
+        const studentForm = document.getElementById("studentForm");
+        const studentName = document.getElementById("studentName");
+        const result = document.getElementById("result");
+
+        studentForm.addEventListener("submit", (event) => {
+            event.preventDefault();
+
+            result.textContent =
+                "Welcome, " + studentName.value + "! Registration successful.";
+        });
+    </script>
+</body>
+
+</html>

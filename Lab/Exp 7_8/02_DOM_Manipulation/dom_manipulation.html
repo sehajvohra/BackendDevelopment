@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        .highlight {
+            background-color: lightyellow;
+            padding: 10px;
+        }
+
+        .changed {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading">DOM Manipulation</h1>
+
+    <p id="message" class="highlight">Welcome to my practical.</p>
+
+    <button id="changeBtn">Change Content</button>
+    <button id="styleBtn">Change Style</button>
+
+    <script>
+        const heading = document.getElementById("heading");
+        const message = document.querySelector("#message");
+        const changeBtn = document.getElementById("changeBtn");
+        const styleBtn = document.getElementById("styleBtn");
+
+        changeBtn.addEventListener("click", () => {
+            heading.textContent = "DOM Manipulation Successful";
+            message.textContent = "Hello Sehaj Vohra! The content has changed.";
+            message.setAttribute("title", "Updated using JavaScript");
+        });
+
+        styleBtn.addEventListener("click", () => {
+            message.classList.toggle("changed");
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Remove and Traverse</title>
+</head>
+
+<body>
+    <h1>Student List</h1>
+
+    <ul id="studentList">
+        <li>Sehaj Vohra</li>
+        <li>Rahul Sharma</li>
+        <li>Aman Verma</li>
+    </ul>
+
+    <button id="showParentBtn">Show Parent</button>
+    <button id="removeBtn">Remove Last Student</button>
+
+    <p id="result">Select an operation.</p>
+
+    <script>
+        const studentList = document.getElementById("studentList");
+        const showParentBtn = document.getElementById("showParentBtn");
+        const removeBtn = document.getElementById("removeBtn");
+        const result = document.getElementById("result");
+
+        showParentBtn.addEventListener("click", () => {
+            result.textContent =
+                "Parent element: " + studentList.parentElement.tagName;
+        });
+
+        removeBtn.addEventListener("click", () => {
+            const lastStudent = studentList.lastElementChild;
+
+            if (lastStudent) {
+                lastStudent.remove();
+                result.textContent = "Last student removed.";
+            } else {
+                result.textContent = "No students left to remove.";
+            }
+        });
+    </script>
+</body>
+
+</html>

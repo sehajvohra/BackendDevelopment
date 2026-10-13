@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+</head>
+
+<body>
+    <h1>JavaScript Event Handling</h1>
+
+    <button id="clickBtn">Click Me</button>
+
+    <p id="clickResult">Click the button to see the result.</p>
+
+    <input type="text" id="nameInput" placeholder="Type something">
+    <p id="keyResult">Your typing will appear here.</p>
+
+    <script>
+        const clickBtn = document.getElementById("clickBtn");
+        const clickResult = document.getElementById("clickResult");
+        const nameInput = document.getElementById("nameInput");
+        const keyResult = document.getElementById("keyResult");
+
+        clickBtn.addEventListener("click", (event) => {
+            clickResult.textContent =
+                "Event type: " + event.type +
+                " | Target: " + event.target.textContent;
+        });
+
+        nameInput.addEventListener("keydown", (event) => {
+            keyResult.textContent =
+                "Key pressed: " + event.key;
+        });
+    </script>
+</body>
+
+</html>
