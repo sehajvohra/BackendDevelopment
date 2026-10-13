@@ -1,12 +1,8 @@
 ---
-
 layout: null
 
 title: Backend Development
-
 ---
-
-
 
 <style>
 
@@ -558,8 +554,6 @@ body {
 
 </style>
 
-
-
 <div class="page-header">
 
   <div>
@@ -569,8 +563,6 @@ body {
     <p class="page-subtitle">Lab experiments, lecture notes, and resources for the course.</p>
 
   </div>
-
-
 
   <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
 
@@ -582,35 +574,17 @@ body {
 
 </div>
 
-
-
-
-
 ## Lab Experiments
-
-
 
 <div class="card-grid card-grid--wide">
 
-
-
-
-
 <!-- Experiment 1 -->
-
-
 
 <div class="card">
 
-
-
   <span class="card-label">Experiment 1</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="Lab/Exp%201/index.html">
 
@@ -618,11 +592,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Lab/Exp%201/Report.html">
 
@@ -630,15 +600,9 @@ body {
 
     </a>
 
-
-
   </div>
 
-
-
 </div>
-
-
 
 <!-- Experiment 5 -->
 
@@ -648,19 +612,13 @@ body {
 
   <div class="card-links">
 
-
-
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%205">
 
       GitHub <span class="arrow">→</span>
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Lab/Exp%205/Report.html">
 
@@ -668,31 +626,17 @@ body {
 
     </a>
 
-
-
   </div>
 
 </div>
 
-
-
-
-
 <!-- Experiment 7 8 -->
-
-
 
 <div class="card">
 
-
-
   <span class="card-label">Experiment 7 8</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment">
 
@@ -700,31 +644,17 @@ body {
 
     </a>
 
-
-
   </div>
-
-
 
 </div>
 
-
-
 <!-- Experiment 12 -->
-
-
 
 <div class="card">
 
-
-
   <span class="card-label">Experiment 12</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2012">
 
@@ -732,11 +662,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Lab/Exp%2012/Report.html">
 
@@ -744,33 +670,17 @@ body {
 
     </a>
 
-
-
   </div>
-
-
 
 </div>
 
-
-
-
-
 <!-- Experiment 12B -->
-
-
 
 <div class="card">
 
-
-
   <span class="card-label">Experiment 12B</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2012B">
 
@@ -778,11 +688,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Lab/Exp%2012B/Report.html">
 
@@ -790,33 +696,17 @@ body {
 
     </a>
 
-
-
   </div>
-
-
 
 </div>
 
-
-
-
-
 <!-- Experiment 13A -->
-
-
 
 <div class="card">
 
-
-
   <span class="card-label">Experiment 13A</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Lab/Exp%2013A">
 
@@ -824,11 +714,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Lab/Exp%2013A/Report.html">
 
@@ -836,47 +722,23 @@ body {
 
     </a>
 
-
-
   </div>
 
-
-
 </div>
 
-
-
 </div>
-
-
-
-
 
 ## Assignments
 
-
-
 <div class="card-grid card-grid--wide">
-
-
-
-
 
 <!-- Assignment 1 -->
 
-
-
 <div class="card">
-
-
 
   <span class="card-label">Assignment 1</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="Theory/Assignments/Assignment_1/index.html">
 
@@ -884,11 +746,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Assignments/Assignment_1/Report.html">
 
@@ -896,33 +754,17 @@ body {
 
     </a>
 
-
-
   </div>
-
-
 
 </div>
 
-
-
-
-
 <!-- Assignment 2 -->
-
-
 
 <div class="card">
 
-
-
   <span class="card-label">Assignment 2</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Assignments/Assignment_2">
 
@@ -930,11 +772,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Assignments/Assignment_2/Assignment%202%20PostgreSQL%20as%20SQL%20+%20NoSQL%20Working%20with%20JSONB.html">
 
@@ -942,51 +780,25 @@ body {
 
     </a>
 
-
-
   </div>
 
-
-
 </div>
 
-
-
 </div>
-
-
-
-
 
 ## Theory
 
-
-
 <p class="subsection-title">Unit 1</p>
-
-
 
 <div class="card-grid card-grid--narrow">
 
-
-
-
-
 <!-- Lecture 3 -->
-
-
 
 <div class="card card--narrow">
 
-
-
   <span class="card-label">Lecture 3</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture3">
 
@@ -994,11 +806,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit1/Lecture3/Report.html">
 
@@ -1006,33 +814,17 @@ body {
 
     </a>
 
-
-
   </div>
-
-
 
 </div>
 
-
-
-
-
 <!-- Lecture 4 -->
-
-
 
 <div class="card card--narrow">
 
-
-
   <span class="card-label">Lecture 4</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture4">
 
@@ -1040,11 +832,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit1/Lecture4/Report.html">
 
@@ -1052,33 +840,17 @@ body {
 
     </a>
 
-
-
   </div>
-
-
 
 </div>
 
-
-
-
-
 <!-- Lecture 5 -->
-
-
 
 <div class="card card--narrow">
 
-
-
   <span class="card-label">Lecture 5</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture5">
 
@@ -1086,11 +858,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit1/Lecture5/Report.html">
 
@@ -1098,33 +866,17 @@ body {
 
     </a>
 
-
-
   </div>
-
-
 
 </div>
 
-
-
-
-
 <!-- Lecture 6 -->
-
-
 
 <div class="card card--narrow">
 
-
-
   <span class="card-label">Lecture 6</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture6">
 
@@ -1132,11 +884,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit1/Lecture6/Report.html">
 
@@ -1144,33 +892,17 @@ body {
 
     </a>
 
-
-
   </div>
-
-
 
 </div>
 
-
-
-
-
 <!-- Lecture 7 -->
-
-
 
 <div class="card card--narrow">
 
-
-
   <span class="card-label">Lecture 7</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture7">
 
@@ -1178,11 +910,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit1/Lecture7/Report.html">
 
@@ -1190,33 +918,17 @@ body {
 
     </a>
 
-
-
   </div>
-
-
 
 </div>
 
-
-
-
-
 <!-- Lecture 8 -->
-
-
 
 <div class="card card--narrow">
 
-
-
   <span class="card-label">Lecture 8</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit1/Lecture8">
 
@@ -1224,11 +936,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit1/Lecture8/Report.html">
 
@@ -1236,47 +944,23 @@ body {
 
     </a>
 
-
-
   </div>
 
-
-
 </div>
 
-
-
 </div>
-
-
-
-
 
 <p class="subsection-title">Unit 2</p>
 
-
-
 <div class="card-grid card-grid--narrow">
-
-
-
-
 
 <!-- Lecture 13 -->
 
-
-
 <div class="card card--narrow">
-
-
 
   <span class="card-label">Lecture 13</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit2/Lecture13">
 
@@ -1284,11 +968,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit2/Lecture13/Report.html">
 
@@ -1296,31 +976,17 @@ body {
 
     </a>
 
-
-
   </div>
-
-
 
 </div>
 
-
-
 <!-- Lecture 14 -->
-
-
 
 <div class="card card--narrow">
 
-
-
   <span class="card-label">Lecture 14</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit2/Lecture14">
 
@@ -1328,11 +994,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit2/Lecture14/Report.html">
 
@@ -1340,31 +1002,17 @@ body {
 
     </a>
 
-
-
   </div>
-
-
 
 </div>
 
-
-
 <!-- Lecture 15 -->
-
-
 
 <div class="card card--narrow">
 
-
-
   <span class="card-label">Lecture 15</span>
 
-
-
   <div class="card-links">
-
-
 
     <a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit2/Lecture15">
 
@@ -1372,11 +1020,7 @@ body {
 
     </a>
 
-
-
     <span class="card-divider">|</span>
-
-
 
     <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit2/Lecture15/Report.html">
 
@@ -1384,19 +1028,11 @@ body {
 
     </a>
 
-
-
   </div>
 
-
-
 </div>
 
-
-
 </div>
-
-
 
 <script>
 
@@ -1409,6 +1045,14 @@ body {
   var icon = document.getElementById('toggle-icon');
 
   var label = document.getElementById('toggle-label');
+
+
+
+  if (!toggleBtn || !icon || !label) {
+
+    return;
+
+  }
 
 
 
@@ -1434,11 +1078,19 @@ body {
 
 
 
-  var saved = localStorage.getItem('bd-theme');
+  try {
 
-  var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var saved = localStorage.getItem('bd-theme');
 
-  applyTheme(saved || (prefersDark ? 'dark' : 'light'));
+    var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    applyTheme(saved || (prefersDark ? 'dark' : 'light'));
+
+  } catch (error) {
+
+    applyTheme('light');
+
+  }
 
 
 
@@ -1448,7 +1100,17 @@ body {
 
     applyTheme(next);
 
-    localStorage.setItem('bd-theme', next);
+
+
+    try {
+
+      localStorage.setItem('bd-theme', next);
+
+    } catch (error) {
+
+      // Ignore storage errors in restricted browsers.
+
+    }
 
   });
 
