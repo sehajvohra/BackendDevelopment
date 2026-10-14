@@ -434,6 +434,13 @@ a:focus-visible,
 <a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit2/Lecture15/Report.html">report</a>
 </div>
 </div>
+<div class="card card--sm">
+<span class="card-label">Lecture 19</span>
+<div class="card-links">
+<a class="card-link" href="https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit2/Lecture19">github</a>
+<a class="card-link" href="https://sehajvohra.github.io/BackendDevelopment/Theory/Unit2/Lecture19/Report.html">report</a>
+</div>
+</div>
 </div>
 
 <footer class="page-footer">
