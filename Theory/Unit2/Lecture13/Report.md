@@ -183,7 +183,7 @@ The comparison is documented as comments in `mongodb.js`. PostgreSQL is describe
 
 ### Screenshot
 
-![CSE students selected in MongoDB](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture13/screenshots/lecture13-mongodb-select-cse.png)
+No separate screenshot is available for the PostgreSQL and MongoDB comparison notes.
 
 ### Result
 
