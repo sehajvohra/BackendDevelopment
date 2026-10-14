@@ -83,8 +83,7 @@ The application uses FastAPI to define API endpoints and SQLAlchemy to interact 
 
 ### Screenshot
 
-A separately verified screenshot filename for this task was not available when preparing this report, so no image link is included.
-
+![Project setup and application files](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task1_Project_Setup/screenshots/task1-project-setup.png)
 ### Result
 
 The initial FastAPI project structure was created, and the application files required for database integration and API development were established.
@@ -109,8 +108,7 @@ The configuration supports environment based database settings through the `.env
 
 ### Screenshot
 
-A separately verified screenshot filename for this task was not available when preparing this report, so no image link is included.
-
+![Database configuration](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task2_Database_Configuration/screenshots/task2-database-configuration.png)
 ### Result
 
 Database engine creation and session management were configured for use by the FastAPI application.
@@ -139,8 +137,7 @@ These models establish the database structure used by the API endpoints.
 
 ### Screenshot
 
-A separately verified screenshot filename for this task was not available when preparing this report, so no image link is included.
-
+![SQLAlchemy database models](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task3_Database_Models/screenshots/task3-database-models.png)
 ### Result
 
 The SQLAlchemy models for departments, students, courses, and enrollments were defined for database operations.
@@ -164,8 +161,7 @@ Student input validation was tested by submitting an invalid email address to th
 
 ### Screenshot
 
-A separately verified screenshot filename for this task was not available when preparing this report, so no image link is included.
-
+![Pydantic schemas](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task4_Pydantic_Schemas/screenshots/task4-pydantic-schemas.png)
 ### Result
 
 Pydantic schemas were established for request validation and response data handling. Invalid student input was rejected during API testing.
@@ -201,8 +197,21 @@ The API was tested using Swagger UI. Testing demonstrated successful student cre
 
 ### Screenshots
 
-A verified list of the saved Task 5 screenshot filenames was not available when preparing this report. No unverified image links have been added.
+![Student API in Swagger UI](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task5_Student_CRUD_API/screenshots/task5-student-api-swagger.png)
 
+![Create student](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task5_Student_CRUD_API/screenshots/task5-create-student.png)
+
+![List students](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task5_Student_CRUD_API/screenshots/task5-list-students.png)
+
+![Retrieve student](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task5_Student_CRUD_API/screenshots/task5-get-student.png)
+
+![Update student](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task5_Student_CRUD_API/screenshots/task5-update-student.png)
+
+![Delete student](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task5_Student_CRUD_API/screenshots/task5-delete-student.png)
+
+![Verify student deletion](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task5_Student_CRUD_API/screenshots/task5-verify-student-deletion.png)
+
+![Student input validation error](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task5_Student_CRUD_API/screenshots/task5-validation-error.png)
 ### Result
 
 The Student API was tested successfully for its principal CRUD operations, filtering, pagination, and request validation. The application returned appropriate successful responses and handled deletion and invalid input cases.
@@ -240,8 +249,17 @@ The course API was tested by creating the course `BD101`, named Backend Developm
 
 ### Screenshots
 
-A verified list of the saved Task 6 screenshot filenames was not available when preparing this report. No unverified image links have been added.
+![Courses and enrollments API in Swagger UI](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task6_Courses_And_Enrollments/screenshots/task6-courses-enrollments-swagger.png)
 
+![Create course](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task6_Courses_And_Enrollments/screenshots/task6-create-course.png)
+
+![List courses](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task6_Courses_And_Enrollments/screenshots/task6-list-courses.png)
+
+![List student enrollments](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task6_Courses_And_Enrollments/screenshots/task6-list-enrollments.png)
+
+![Delete enrollment](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task6_Courses_And_Enrollments/screenshots/task6-delete-enrollment.png)
+
+![Verify enrollment deletion](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task6_Courses_And_Enrollments/screenshots/task6-verify-enrollment-deletion.png)
 ### Result
 
 Course and enrollment endpoints were implemented and tested. Course creation, course listing, enrollment retrieval, duplicate enrollment handling, enrollment deletion, and verification of the deleted enrollment were demonstrated.
@@ -273,33 +291,44 @@ The tests were executed using Pytest. The final run completed with **four passin
 
 ### Screenshot
 
-![Automated tests passed: four tests passed with five warnings](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task7_Final_Testing/screenshots/task7-automated-tests-passed.png)
-
+![Automated test results showing four passing tests](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit2/Lecture19/Task7_Final_Testing/screenshots/task7-automated-tests-passed.png)
 ### Result
 
 The automated test suite completed with four passing tests. The tests verified student creation, the paginated listing response, handling of a missing student, and rejection of invalid input.
 
 ## Project Structure
 
-The following structure summarizes the relevant files and task folders used in Lecture 19.
-
 ```text
 Lecture19/
+├── Report.md
 ├── Task1_Project_Setup/
 │   ├── main.py
 │   ├── database.py
 │   ├── models.py
 │   ├── schemas.py
 │   ├── requirements.txt
-│   └── .env
+│   ├── .env
+│   └── screenshots/
+│       └── task1-project-setup.png
 ├── Task2_Database_Configuration/
 │   └── screenshots/
+│       └── task2-database-configuration.png
 ├── Task3_Database_Models/
 │   └── screenshots/
+│       └── task3-database-models.png
 ├── Task4_Pydantic_Schemas/
 │   └── screenshots/
+│       └── task4-pydantic-schemas.png
 ├── Task5_Student_CRUD_API/
 │   └── screenshots/
+│       ├── task5-student-api-swagger.png
+│       ├── task5-create-student.png
+│       ├── task5-list-students.png
+│       ├── task5-get-student.png
+│       ├── task5-update-student.png
+│       ├── task5-delete-student.png
+│       ├── task5-verify-student-deletion.png
+│       └── task5-validation-error.png
 ├── Task6_Courses_And_Enrollments/
 │   ├── main.py
 │   ├── database.py
@@ -309,13 +338,18 @@ Lecture19/
 │   ├── .env
 │   ├── create_test_student.py
 │   └── screenshots/
+│       ├── task6-courses-enrollments-swagger.png
+│       ├── task6-create-course.png
+│       ├── task6-list-courses.png
+│       ├── task6-list-enrollments.png
+│       ├── task6-delete-enrollment.png
+│       └── task6-verify-enrollment-deletion.png
 └── Task7_Final_Testing/
     ├── test_api.py
     ├── requirements.txt
     └── screenshots/
         └── task7-automated-tests-passed.png
 ```
-
 ## Concepts Used
 
 1. RESTful API design and HTTP methods.
