@@ -44,13 +44,13 @@ Set up a Django project for a Student Management API. Create and register a `stu
 
 ## Task Summary
 
-| Task | Description | Implementation |
-|---|---|---|
-| Task 1: Django Setup | Create an isolated Python environment and install Django. | A virtual environment was created, Django was installed, and the installed version was checked. |
-| Task 2: Project Creation | Create the Django project structure. | The `student_system` project was created with `manage.py` and the inner project configuration package. |
-| Task 3: Students App | Create and register the application. | The `students` app was created and added to `INSTALLED_APPS`. Django's system check reported no issues after the configuration was corrected. |
-| Task 4: Basic View | Configure a basic view and map the root URL. | The `index` view returned a plain text HTTP response, and the root URL was mapped to that view. The browser displayed the expected welcome message. |
-| Task 5: JSON API | Return the final API response in JSON format. | The `index` view was updated to return a JSON object containing `message`, `version`, and `status`. The browser displayed the expected JSON response. |
+| Task                     | Description                                               | Implementation                                                                                                                                        |
+| ------------------------ | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Task 1: Django Setup     | Create an isolated Python environment and install Django. | A virtual environment was created, Django was installed, and the installed version was checked.                                                       |
+| Task 2: Project Creation | Create the Django project structure.                      | The `student_system` project was created with `manage.py` and the inner project configuration package.                                                |
+| Task 3: Students App     | Create and register the application.                      | The `students` app was created and added to `INSTALLED_APPS`. Django's system check reported no issues after the configuration was corrected.         |
+| Task 4: Basic View       | Configure a basic view and map the root URL.              | The `index` view returned a plain text HTTP response, and the root URL was mapped to that view. The browser displayed the expected welcome message.   |
+| Task 5: JSON API         | Return the final API response in JSON format.             | The `index` view was updated to return a JSON object containing `message`, `version`, and `status`. The browser displayed the expected JSON response. |
 
 ## Task 1: Django Setup
 
