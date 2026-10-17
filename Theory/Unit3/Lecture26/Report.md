@@ -67,11 +67,11 @@ The virtual environment is an execution dependency and should not be included in
 ### Code Location
 
 - [Task1_Django_Setup folder](https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit3/Task1_Django_Setup)
-- [Django setup screenshot folder](https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit3/Task1_Django_Setup/screenshots)
+- [Django setup screenshot folder](https://github.com/sehajvohra/BackendDevelopment/tree/main/Theory/Unit3/Lecture26/Task1_Django_Setup/screenshots)
 
 ### Screenshot
 
-![Django installation and version verification](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit3/Task1_Django_Setup/screenshots/django_installation.png)
+![Django installation and version verification](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit3/Lecture26/Task1_Django_Setup/screenshots/django_installation.png)
 
 ### Result
 
@@ -98,7 +98,7 @@ The working Django project is located under `Task1_Django_Setup/student_system`;
 
 ### Screenshot
 
-![Django project structure](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit3/Task2_Project_Creation/screenshots/project_structure.png)
+![Django project structure](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit3/Lecture26/Task2_Project_Creation/screenshots/project_structure.png)
 
 ### Result
 
@@ -124,7 +124,7 @@ An initial configuration error occurred because the `students` entry was not sep
 
 ### Screenshot
 
-![Students app registration and Django system check](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit3/Task3_Students_App/screenshots/students_app_registered.png)
+![Students app registration and Django system check](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit3/Lecture26/Task3_Students_App/screenshots/students_app_registered.png)
 
 ### Result
 
@@ -151,7 +151,7 @@ The view was subsequently updated for Task 5 to return JSON. The current `views.
 
 ### Screenshot
 
-![Basic Django view response in the browser](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit3/Task4_Basic_View/screenshots/basic_view_output.png)
+![Basic Django view response in the browser](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit3/Lecture26/Task4_Basic_View/screenshots/basic_view_output.png)
 
 ### Result
 
@@ -181,7 +181,7 @@ The existing root URL mapping was retained. The development server was run, and 
 
 ### Screenshot
 
-![Student Management API JSON response](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit3/Task5_JSON_API/screenshots/student_api_json_response.png)
+![Student Management API JSON response](https://raw.githubusercontent.com/sehajvohra/BackendDevelopment/main/Theory/Unit3/Lecture26/Task5_JSON_API/screenshots/student_api_json_response.png)
 
 ### Result
 
